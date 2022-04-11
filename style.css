@@ -1,0 +1,92 @@
+/* set up base */
+body{
+  background-image: url('img/background.jpg');
+  background-size: cover;
+}
+
+.blackbox{
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
+}
+
+header, nav{
+  text-align: center;
+}
+
+main{
+  text-align: left;
+  margin-left: 50px;
+  color: white;
+}
+
+/* Header */
+img{
+  width: 200px;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 24px;
+  color: #04d419;
+  margin: 2px;
+}
+
+/* Navigatore */
+nav{
+  background-color: #04d419;
+  height: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 5px;
+  }
+
+button{
+  font-size: 9px;
+}
+
+/* tutto il resto */
+
+h2.quadratino{
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.quadratino:before{
+  content: "\220E"
+}
+
+span{
+  font-size: 14px;
+}
+
+.arrow:before{
+  content: "\21A3"
+}
+
+div.barra1{
+  background-color: orange;
+  margin-right: 680px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+div.barra2{
+  background-color: green;
+  margin-right: 500px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+div.barra3{
+  background-color: red;
+  margin-right: 820px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  height: 30px;
+
+}
